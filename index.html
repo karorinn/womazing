@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WOMAZING</title>
+</head>
+<body>
+    <header class="head" id="head">
+        <nav>
+            <div class="navigate">
+                			<!-- Создание бургер меню -->
+                <div class="header">
+                    <nav class="header__nav">
+                        <ul class="menu" id="menu">
+                            <div class="nav_1">
+                                <img class="img" id="dress_logo" src="images/dress logo.png" alt="">
+                                <p>WOMAZING</p>
+                            </div>
+                            <li><a href="#head">Главная</a></li>
+                            <li><a href="#sec-1">Новости</a></li>
+                            <li><a href="#sec-4">Магазин</a></li>
+                            <li><a href="#contact">Контакты</a></li>
+                            <div class="nav_3">
+                                <div id="nav_3_left">
+                                <img class="imgh" id="logo_button" src="images/telephone 1.png" alt="">
+                                <p id="nav_number">+7(495)823-54-12</p>
+                            </div>
+                        </ul>
+
+                        <div id="nav_3_right">
+                            <img id="shopbutton" src="images/shopping-bags 1.png" alt="">
+                        </div>
+                    </div>
+                        <div class="hamb-filed" id="hamb">
+                            <img class="fa-duotone fa-bars" src="images/dress logo.png" alt="">
+                        </div>
+
+                    </nav>
+                </div>
+               </div>
+			<div class="popup" id="popup"></div>
+    </header>
+    <section class="sec-1" id="sec-1">
+        <div class="container">
+            <div class="block">
+                <div class="text-block">
+                    <h1 id="head-sec1">
+                        Новые поступления в этом сезоне
+                    </h1>
+                    <p id="text-sec1">
+                        Утонченные сочетания и бархатные оттенки — вот то, что вы искали в этом сезоне. Время исследовать.
+                    </p>
+                </div>
+                <div class="image-block">
+                    <img id="ph1" src="images/Фото главное.png" alt="">
+                    <img id="ph2" src="images/Фото вторичное.png" alt="">
+                    <img id="ph3" src="images/allef-vinicius-YG97wpX0OEg-unsplash 1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section class="sec-2">
+        <div class="container">
+            <div class="sliderNew">
+                <div class="wrap">
+                    <div class="sliderNew-item fade">
+                        <div class="card1 tshirt all">
+                            <div id="photo1">
+                                <img class="img" id="phototov1" src="images/Фото товара.png" alt="">
+                            </div>
+                            <div class="name">
+                                <h4 id="nametov">Футболка USA</h4>
+                                <h5 id="price">129$</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sliderNew-item fade">
+                        <div class="card1 kupalnik all">
+                            <div id="photo1">
+                                <img class="img" id="phototov2" src="images/Фото товара (1).png" alt="">
+                            </div>
+                            <div class="name">
+                                <h4 id="nametov">Купальник Glow</h4>
+                                <h5 id="price">129$</h5>>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sliderNew-item fade">
+                        <div class="card1 sweetshot all">
+                            <div id="photo1">
+                                <img class="img" id="phototov2" src="images/Фото товара (2).png" alt="">
+                            </div>
+                            <div class="name">
+                                <h4 id="nametov">Свитшот Sweet Shot</h4>
+                                <h5 id="price">129$</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prev">&lt;</div>
+                    <div class="next">&gt;</div>
+                </div>    
+                <div class="sliderNew-dots">
+					<div class="dot dot-active"></div>
+					<div class="dot"></div>
+					<div class="dot"></div>
+				</div>
+            </div>
+        </div>
+    </section> -->
+    <section class="sec-2">
+        <div class="container">
+            <div class="block-sec2">
+                <div id="head-sec2">
+                    <h2 id="head-h2">Новая коллекция</h2>
+                </div>
+                <div class="slider">
+                    <div class="slider_container">
+                                    <img class="img slider-image fade" id="phototov1" src="images/Фото товара.png" alt="">
+                            </div>
+
+                    <div class="slider-controls">
+                        <div class="slider-dots">
+                            <span class="slider-dot activ" onclick="changeIndex(0)"></span>
+                            <span class="slider-dot" onclick="changeIndex(1)"></span>
+                            <span class="slider-dot" onclick="changeIndex(2)"></span>
+                        </div>
+                    </div>
+                </div>    
+                            <!--<div class="card1 kupalnik all">
+                                <div id="photo1">
+                                    <img class="img" id="phototov2" src="images/Фото товара (1).png" alt="">
+                                </div>
+                                <div class="name">
+                                    <h4 id="nametov">Купальник Glow</h4>
+                                    <h5 id="price">129$</h5>
+                                </div>
+                            </div>
+                            <div class="card1 sweetshot all">
+                                <div id="photo1">
+                                    <img class="img" id="phototov2" src="images/Фото товара (2).png" alt="">
+                                </div>
+                                <div class="name">
+                                    <h4 id="nametov">Свитшот Sweet Shot</h4>
+                                    <h5 id="price">129$</h5>
+                                </div>
+                            </div>
+                        </div>-->
+            </div>
+        </div>
+    </section>
+    <section class="sec-3">
+        <div class="container">
+            <div class="head-3">
+                <h2 id="head-3">Что для нас важно</h2>
+            </div>
+            <div class="accordion" id="accordion-1">
+                <div class="accordion__item accordion__item_show">
+                    <div class="accordion__header">Качество</div>
+                    <div class="accordion__body">Наши профессионалы работают на лучшем оборудовании для пошива одежды беспрецедентного качества</div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__header">Скорость</div>
+                    <div class="accordion__body">Благодаря отлаженной системе в WOMAZING мы можем отшивать до 20-ти единиц продукции в наших собственных цехах</div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__header">Ответственность</div>
+                    <div class="accordion__body">Мы заботимся о людях и планете. Безотходное производство и комфортные условия труда — всё это WOMAZING</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-4" id="sec-4">
+        <div class="container">
+            <h2 id="head-4">Магазин</h2>
+            <div class="listbtn">
+                <ul class="list">
+                    <li class="list__item active" data-id="all">Все</li> 
+                    <li class="list__item" data-id="tshirt">Футболки</li>
+                    <li class="list__item" data-id="sweetshot">Свитшоты</li>
+                    <li class="list__item" data-id="kupalnik">Купальники</li>
+                    <li class="list__item" data-id="tolstovka">Толстовки</li>
+                </ul>
+            </div>
+            <div class="shop">
+                <div class="shop__row">
+                    <div class="shop__item tshirt card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара.png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Футболка</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                    <div class="shop__item kupalnik card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара (1).png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Купальник</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                    <div class="shop__item sweetshot card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара (2).png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Футболка</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                    <div class="shop__item tshirt card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара.png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Футболка</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                    <div class="shop__item kupalnik card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара (1).png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Купальник</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                    <div class="shop__item sweetshot card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара (2).png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Футболка</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                    <div class="shop__item tshirt card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара.png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Футболка</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                    <div class="shop__item kupalnik card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара (1).png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Купальник</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                    <div class="shop__item sweetshot card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара (2).png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Футболка</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                    <div class="shop__item tshirt card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара.png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Футболка</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                    <div class="shop__item kupalnik card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара (1).png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Купальник</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                    <div class="shop__item sweetshot card1">
+                        <div class="item__img">
+                            <img class="tshirts" src="images/Фото товара (2).png" alt="">
+                        </div>
+                        <div class="item__text">
+                            <h4 class="name">Футболка</h4>
+                            <h5 class="price">129$</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-5 "></section>
+    <div class="modal-open">
+        <img class="modal-open__img" src="./img/Mask_4.png" alt="" />
+        <p class="modal-open__descr"> Есть вопросы? Позвоните нам.</p>
+        <button id="open-modal__btn"> <img src="images/telephone 1.png" alt=""></button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <h4 id="headmop">Заказать обратный звонок</h4>
+            <form id="form" action="#">
+                <fieldset>
+                    <input class="write" id="name" placeholder="Имя"> <br>
+                    <input class="write" id="telephone" placeholder="+7 XXX XXX XX XX"><br>
+                    <input  class="write" id="email" placeholder="Email"><br>
+                </fieldset>
+                <button id="modalbtn"> Заказать звонок</button>
+            </form>
+            <p>
+            </p>
+        </div>
+    </div>
+    <!--<div class="cookies" id="cookies">
+        <div class="cookies__descr">
+            Пользуясь нашим сайтом, вы соглашаетесь с тем, что
+            <a class="cookies__link" href="#">мы используем cookies</a>
+        </div>
+        <div class="cookies__btn" id="cookies__btn">Окей</div>
+    </div>
+</div>-->
+    <!--<div id="modal" class="modal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <h2>Modal title</h2>
+           
+            <div class="slider">
+                <div class="slider__container">
+                    <img src="./img/Mask_1.png" alt="" class="slider__image fade" />
+                </div>
+                <div class="slider__controls">
+                    <div class="slider__dots">
+                        <span class="slider__dot activ" onclick="changeIndex(0)"></span>
+                        <span class="slider__dot" onclick="changeIndex(1)"></span>
+                        <span class="slider__dot" onclick="changeIndex(2)"></span>
+                    </div>
+                    <button class="slider__nav slider__nav-left">&lt;</button>
+                    <button class="slider__nav slider__nav-right">&gt;</button>
+                </div>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit earum
+                quam totam ex similique. Ea cupiditate sunt dolorem natus expedita
+                harum voluptatum, libero quibusdam quaerat perferendis similique
+                deleniti aliquid et.
+            </p>
+        </div>
+    </div> -->
+    
+    <footer id="contact">
+        <div class="container">
+            <div class="first">
+                <div id="first-left">
+                    <img class="img" id="dress" src="images/dress logo.png" alt="">
+                    <p>WOMAZING</p>
+                </div>
+                <div id="first-right">
+                    <p id="number">+7(495)823-54-12</p>
+                    <p id="mail">hello@womazing.com</p>
+                    <div id="social">
+                        <img class="foot-img" src="images/facebook (1) 1.png" alt="">
+                        <img class="foot-img" src="images/instagram (1) 1.png" alt="">
+                        <img class="foot-img" src="images/twitter (1) 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="second">
+                <div id="second-left">
+                    <p class="foot-txt">@ Все права защищены</p>
+                    <p class="foot-txt">Политика конфинденциальности</p>
+                    <p class="foot-txt">Публичная оферта</p>
+                </div>
+                <div id="second-right">
+                    <p class="foot-txt">Пальто</p>
+                    <p class="foot-txt">Свитшоты</p>
+                    <p class="foot-txt">Кардиганы</p>
+                    <p class="foot-txt">Толстовки</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
