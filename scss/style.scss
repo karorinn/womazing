@@ -1075,11 +1075,16 @@ fieldset {
     .modal-open {
         margin: 0px auto;
     }
+	#modalbtn{
+		padding: 40px;
+	}
     .first{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+	#first-right{
+		align-items: center;
     .second{
         display: none;
     }
